@@ -1,1 +1,24 @@
-<h2>There is nothing to see here.</h2>
+<!DOCTYPE html>
+<html>
+
+<body>
+	<p><h3>Landing page.</h3></p>
+	<p>Parameters:</p>
+	<p id="args_p"></p>
+</body>
+</html>
+
+<head>
+	<script>
+		var queryString = window.location.search.substring(window.location.search.indexOf('?') + 1);
+		var results = "";
+	    var queries = queryString.split("&");
+	    var i, l;
+	    for (i = 0, l = queries.length; i < l; i++) {
+	        results += queries[i] + "<br />";
+	    }
+
+	  	var argsParagraph = document.getElementById("args_p");
+	  	argsParagraph.innerHTML = results;
+	</script>
+</head>
