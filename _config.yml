@@ -1,0 +1,14 @@
+# Site settings
+title: LastMinuteDevice
+email: cyborg@lastminutedevice.com
+description: > # this means to ignore newlines until "baseurl:"
+  Code and croissants since 2004. 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lastminutedevice.com" 
+twitter_username: chrozophora
+github_username:  turnsole
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
