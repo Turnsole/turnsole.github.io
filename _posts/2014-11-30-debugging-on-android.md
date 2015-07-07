@@ -7,7 +7,7 @@ categories: tools android
 
 If you previously gave up on using an IDE integrated debugger for Android development, have another look. Until about a year ago my opinion was that they've usually more frustration than they're worth. (This opinion is by no means widespread.) The IDE integration in Eclipse never performed consistently enough on any of my development environments to make it more help than hindrance. 
 
-Android Studio, however, does pretty well and so I've been using it a bit more lately. Unfortunately, you can't use it to step through C or C++ JNI code yet, but on Java it take barely any effort to set up. This article will run through: 
+Android Studio, however, does pretty well and so I've been using it a bit more lately. Unfortunately, you can't use it to step through C or C++ JNI code yet (this is coming), but on Java it take barely any effort to set up. This article will run through: 
 
 * Setting up the debugger in Android Studio 
 * Stepping through Java code 
