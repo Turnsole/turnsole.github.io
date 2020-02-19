@@ -9,7 +9,7 @@ categories: android
 
 <p>Sometimes, especially when working with List/RecyclerViews, it behooves one to work on improving the rendering performance of a given screen in your app. I don't like to optimise blind, and I love automation, so I wanted a way to take a snapshot of the performance of a given area. You can enable a kind of performance overlay and just look at it, but that doesn't give you averages over time and it can't be tied into an automated test, practically speaking.</p>
 
-##cookie-butter 
+## cookie-butter 
 
 <p>My solution was a python script that essentially scrapes dumpsys gfxinfo and produces a chart. (You can get it from GitHub <a href="https://github.com/Turnsole/cookie-butter">here</a>.)</p> 
 
